@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Calculator</title>
+    <script type="module" src="currency.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   
+    
+    <section class="MainWindow">
+     
+      <div class="appContainer">
+        <h1>Currency Converter</h1>
+        <div class="mainContent">
+          
+          <select name="currency" id="selectFrom">
+            <option value="">Choose a Currency</option>
+          </select>
+          <button id="startConversion">
+            <img class="convertImage" src="./images/try.png" alt="" /><span
+              >Click to Convert</span>
+          </button>
+          <select name="currency" id="selectTo">
+            <option value="">Choose a Currency</option>
+          </select>
+        </div>
+        <div class="secondContent"><span><input id="amount" type="number" min="0" placeholder="Enter amount" value="1"></span><span><p id="output">Select your currencies and then enter an amount in the box above</p></span></div>
+      </div>
+    </section>
+    
+  </body>
+</html>

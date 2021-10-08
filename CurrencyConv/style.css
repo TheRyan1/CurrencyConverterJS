@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  transform: translateY(100px);
+}
+
+.MainWindow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainContent{
+  height: 500px;
+  width: 1000px;
+  background-color: rgb(46, 51, 73);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.appContainer {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.secondContent{
+  transform: translateY(-100px);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
+}
+.secondContent span{
+  color: white;
+  margin-bottom: 20px;
+ 
+}
+#selectFrom, #selectTo{
+  width: 200px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+#output{
+  color: white;
+}
+#startConversion{
+background-color: rgba(255, 255, 255, 0);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+#startConversion img {
+  width: 100px;
+}
+#startConversion span{
+  display: block;
+color: white;
+ 
+ }
+ input{
+   text-align: center;
+ }
+
